@@ -39,7 +39,6 @@ ca_chain: '-----BEGIN CERTIFICATE-----
     mUWq4Agp+yIYt/0=
 
     -----END CERTIFICATE-----'
-
 chase_referrals: 'False'
 domain: openstack.test
 group_desc_attribute: description
