@@ -40,7 +40,7 @@ ca_chain: '-----BEGIN CERTIFICATE-----
 
     -----END CERTIFICATE-----'
 chase_referrals: 'False'
-domain: openstack.test
+domain: openldap1.tld
 group_desc_attribute: description
 group_filter: ''
 group_id_attribute: cn
