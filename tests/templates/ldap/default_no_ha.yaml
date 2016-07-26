@@ -151,8 +151,8 @@ template:
         params: *compute-node-params
         role: fuel_slave
   name: 1 Controller, 1 Compute + Cinder, Neutron, VLAN
-  slaves: 6
+  slaves: 2
 
 plugins:
   - ldap:
-      config_file: !os_env LDAP_CONFIG_FILE, plugins_config/ldap_mld.yaml
+      config_file: !os_env LDAP_CONFIG_FILE, plugins_config/ldap.yaml
