@@ -62,4 +62,115 @@ user_name_attribute: sn
 user_objectclass: inetOrgPerson
 user_pass_attribute: userPassword
 user_tree_dn: dc=openldap1,dc=tld
-additional_domains: ''
+additional_domains: 'domain=openldap2
+
+    url=ldap://172.18.191.75
+
+    suffix=dc=openldap2,dc=tld
+
+    user=cn=admin,dc=openldap2,dc=tld
+
+    password=1111
+
+    query_scope=sub
+
+    user_tree_dn=dc=openldap2,dc=tld
+
+    user_objectclass=inetOrgPerson
+
+    user_id_attribute=cn
+
+    user_name_attribute=sn
+
+    user_pass_attribute=userPassword
+
+    user_enabled_attribute=enabled
+
+    user_allow_create=False
+
+    user_allow_update=False
+
+    user_allow_delete=False
+
+    user_filter=
+
+    group_tree_dn=dc=openldap2,dc=tld
+
+    group_objectclass=groupOfNames
+
+    group_id_attribute=cn
+
+    group_name_attribute=cn
+
+    group_desc_attribute=description
+
+    group_member_attribute=member
+
+    group_allow_create=False
+
+    group_allow_update=False
+
+    group_allow_delete=False
+
+    group_filter=
+
+    ldap_proxy=false
+
+    use_tls=False
+
+
+    domain=AD2
+
+    url=ldap://172.16.56.26
+
+    user=cn=Administrator,cn=Users,dc=keystone2,dc=tld
+
+    group_id_attribute=cn
+
+    group_objectclass=group
+
+    user_objectclass=person
+
+    user_name_attribute=cn
+
+    password=qwerty123!!
+
+    user_allow_delete=False
+
+    group_allow_create=False
+
+    user_tree_dn=dc=keystone2,dc=tld
+
+    user_pass_attribute=userPassword
+
+    user_enabled_attribute=enabled
+
+    user_allow_create=False
+
+    user_allow_update=False
+
+    group_tree_dn=dc=keystone2,dc=tld
+
+    group_desc_attribute=description
+
+    user_filter=
+
+    group_allow_update=False
+
+    group_filter=
+
+    suffix=dc=keystone2,dc=tld
+
+    group_member_attribute=member
+
+    group_allow_delete=False
+
+    use_tls=False
+
+    query_scope=sub
+
+    group_name_attribute=cn
+
+    user_id_attribute=cn
+
+    ldap_proxy=false'
