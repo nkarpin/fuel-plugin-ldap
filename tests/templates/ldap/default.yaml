@@ -161,4 +161,4 @@ template:
 
 plugins:
   - ldap:
-      config_file: !os_env LDAP_CONFIG_FILE, plugins_config/ldap_mld.yaml
+      config_file: !os_env LDAP_CONFIG_FILE, plugins_config/mld_proxy.yaml
